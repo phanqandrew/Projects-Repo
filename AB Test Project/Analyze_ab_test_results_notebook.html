@@ -11797,7 +11797,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -11827,7 +11827,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./ab_data.csv&#39;</span><span class="p">)</span>
@@ -11843,7 +11843,7 @@ div#notebook {
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[60]:</div>
+<div class="prompt output_prompt">Out[41]:</div>
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -11936,7 +11936,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">row_count</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -11976,7 +11976,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">unique_users</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;user_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -11992,7 +11992,7 @@ div#notebook {
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[62]:</div>
+<div class="prompt output_prompt">Out[43]:</div>
 
 
 
@@ -12018,7 +12018,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">converted</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;converted&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -12035,7 +12035,7 @@ div#notebook {
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[63]:</div>
+<div class="prompt output_prompt">Out[44]:</div>
 
 
 
@@ -12061,7 +12061,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="o">=</span><span class="n">df</span><span class="p">[</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;group&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;treatment&#39;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;landing_page&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;new_page&#39;</span><span class="p">)]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -12078,7 +12078,7 @@ div#notebook {
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[64]:</div>
+<div class="prompt output_prompt">Out[45]:</div>
 
 
 
@@ -12104,7 +12104,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -12162,7 +12162,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df0</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;group&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;control&#39;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;landing_page&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;old_page&#39;</span><span class="p">)</span>  <span class="p">]</span>
@@ -12180,7 +12180,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[66]:</div>
+<div class="prompt output_prompt">Out[47]:</div>
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12263,7 +12263,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Double Check all of the correct rows were removed - this should be 0</span>
@@ -12279,7 +12279,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[67]:</div>
+<div class="prompt output_prompt">Out[48]:</div>
 
 
 
@@ -12315,7 +12315,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">unique_users_2</span> <span class="o">=</span> <span class="n">df2</span><span class="p">[</span><span class="s1">&#39;user_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -12331,7 +12331,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[68]:</div>
+<div class="prompt output_prompt">Out[49]:</div>
 
 
 
@@ -12357,7 +12357,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df2</span><span class="p">[</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;user_id&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">duplicated</span><span class="p">()]</span>
@@ -12373,7 +12373,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[69]:</div>
+<div class="prompt output_prompt">Out[50]:</div>
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12434,7 +12434,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Row 2893, user_id 773192</span>
@@ -12457,7 +12457,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df2</span><span class="p">[</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;user_id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">773192</span><span class="p">]</span><span class="o">.</span><span class="n">index</span>
@@ -12473,7 +12473,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[71]:</div>
+<div class="prompt output_prompt">Out[52]:</div>
 
 
 
@@ -12489,7 +12489,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df2</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="mi">2893</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -12503,7 +12503,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df2</span><span class="p">[</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;user_id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">773192</span><span class="p">]</span><span class="o">.</span><span class="n">index</span>
@@ -12519,7 +12519,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[73]:</div>
+<div class="prompt output_prompt">Out[54]:</div>
 
 
 
@@ -12546,7 +12546,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prob_convert</span> <span class="o">=</span> <span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;converted&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">/</span><span class="n">unique_users_2</span>
@@ -12562,7 +12562,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[74]:</div>
+<div class="prompt output_prompt">Out[55]:</div>
 
 
 
@@ -12588,7 +12588,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prob_control</span> <span class="o">=</span> <span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;group&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;control&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">/</span><span class="n">unique_users_2</span>
@@ -12606,7 +12606,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[75]:</div>
+<div class="prompt output_prompt">Out[56]:</div>
 
 
 
@@ -12632,7 +12632,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prob_treatment</span> <span class="o">=</span> <span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;group&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;treatment&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">/</span><span class="n">unique_users_2</span>
@@ -12651,7 +12651,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[76]:</div>
+<div class="prompt output_prompt">Out[57]:</div>
 
 
 
@@ -12677,7 +12677,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="prompt input_prompt">In&nbsp;[58]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;landing_page&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;new_page&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">/</span><span class="n">unique_users_2</span>
@@ -12692,7 +12692,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[77]:</div>
+<div class="prompt output_prompt">Out[58]:</div>
 
 
 
@@ -12776,7 +12776,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[59]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">p_new</span><span class="o">=</span> <span class="n">prob_convert</span>
@@ -12792,7 +12792,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[78]:</div>
+<div class="prompt output_prompt">Out[59]:</div>
 
 
 
@@ -12818,7 +12818,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[60]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">p_old</span> <span class="o">=</span> <span class="n">prob_convert</span>
@@ -12834,7 +12834,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[79]:</div>
+<div class="prompt output_prompt">Out[60]:</div>
 
 
 
@@ -12860,7 +12860,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[61]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_new</span> <span class="o">=</span> <span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;landing_page&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;new_page&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -12876,7 +12876,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[80]:</div>
+<div class="prompt output_prompt">Out[61]:</div>
 
 
 
@@ -12902,7 +12902,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[81]:</div>
+<div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">n_old</span> <span class="o">=</span> <span class="p">(</span><span class="n">df2</span><span class="p">[</span><span class="n">df2</span><span class="p">[</span><span class="s1">&#39;landing_page&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;old_page&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -12918,7 +12918,7 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[81]:</div>
+<div class="prompt output_prompt">Out[62]:</div>
 
 
 
@@ -12944,35 +12944,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_converted_simulation</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">p_new</span><span class="p">,</span>  <span class="mi">10000</span><span class="p">)</span>
-<span class="n">old_converted_simulation</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="n">n_old</span><span class="p">,</span> <span class="n">p_old</span><span class="p">,</span>  <span class="mi">10000</span><span class="p">)</span><span class="o">/</span><span class="n">n_old</span>
-<span class="n">p_diffs</span> <span class="o">=</span> <span class="n">new_converted_simulation</span> <span class="o">-</span> <span class="n">old_converted_simulation</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="prompt input_prompt">In&nbsp;[63]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_page_converted</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">p_new</span><span class="p">,</span>  <span class="n">n_new</span><span class="p">)</span>
@@ -12995,7 +12967,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[84]:</div>
+<div class="prompt input_prompt">In&nbsp;[64]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">old_page_converted</span> <span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">p_old</span><span class="p">,</span>  <span class="n">n_old</span><span class="p">)</span>
@@ -13018,7 +12990,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[65]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">p_new_sim</span><span class="o">=</span> <span class="n">new_page_converted</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
@@ -13035,12 +13007,12 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[36]:</div>
+<div class="prompt output_prompt">Out[65]:</div>
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.0017735200797550921</pre>
+<pre>-0.00033256988033519841</pre>
 </div>
 
 </div>
@@ -13054,7 +13026,7 @@ memory usage: 11.2+ MB
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Looks like 0.0017735 was my p_new - p_old for this simulation.</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Looks like 0.000332 was my p_new - p_old for this simulation.</span>
 </pre></div>
 
 </div>
@@ -13074,19 +13046,116 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[85]:</div>
+<div class="prompt input_prompt">In&nbsp;[75]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p_diffs</span><span class="o">=</span><span class="p">[]</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10000</span><span class="p">):</span>
-    <span class="n">new_page_converted</span><span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">p_new</span><span class="p">,</span>  <span class="n">n_new</span><span class="p">)</span>
-    <span class="n">old_page_converted</span><span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">p_old</span><span class="p">,</span>  <span class="n">n_old</span><span class="p">)</span>
-    <span class="n">diff</span> <span class="o">=</span> <span class="n">new_page_converted</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">-</span><span class="n">old_page_converted</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-    
-    <span class="n">p_diffs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">diff</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="n">n_new</span><span class="p">,</span><span class="n">p_new</span><span class="p">,</span><span class="mi">10000</span><span class="p">)</span>
+<span class="c1"># n_new trials, each entry in the array is the number of successful conversions in n_new trials with probability of success p_new. There are 10000 entries.</span>
+<span class="c1"># So, to get 10,000 p_news, divide the array by 10,000</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[75]:</div>
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([17210, 17518, 17562, ..., 17329, 17140, 17399])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_page_converted_simulations</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="n">n_new</span><span class="p">,</span><span class="n">p_new</span><span class="p">,</span><span class="mi">10000</span><span class="p">)</span><span class="o">/</span><span class="mi">10000</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Do the same for old_page_converted</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">old_page_converted_simulations</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="n">n_old</span><span class="p">,</span><span class="n">p_old</span><span class="p">,</span><span class="mi">10000</span><span class="p">)</span><span class="o">/</span><span class="mi">10000</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p_diffs</span> <span class="o">=</span> <span class="n">new_page_converted_simulations</span><span class="o">-</span><span class="n">old_page_converted_simulations</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p_diffs</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[80]:</div>
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([ 0.0059, -0.0152, -0.0255, ...,  0.0291, -0.017 ,  0.0098])</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -13103,20 +13172,7 @@ memory usage: 11.2+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[86]:</div>
+<div class="prompt input_prompt">In&nbsp;[81]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -13134,12 +13190,12 @@ memory usage: 11.2+ MB
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[86]:</div>
+<div class="prompt output_prompt">Out[81]:</div>
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.lines.Line2D at 0xad5c780&gt;</pre>
+<pre>&lt;matplotlib.lines.Line2D at 0xab38048&gt;</pre>
 </div>
 
 </div>
@@ -13151,86 +13207,84 @@ memory usage: 11.2+ MB
 
 <div class="output_png output_subarea ">
 <img src="data:image/png;base64,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
-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
+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
+Fs+n7ulXAAAAAElFTkSuQmCC
 "
 >
 </div>
@@ -13253,10 +13307,10 @@ ZghIUscMAUnqmCEgSR0zBCSpY4aAJHXsfwEoHL/tufPAhwAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="prompt input_prompt">In&nbsp;[82]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">p_diffs</span> <span class="o">&gt;</span> <span class="n">prob_convert_given_control</span> <span class="o">-</span><span class="n">prob_convert_given_treatment</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">p_diffs</span> <span class="o">&gt;</span> <span class="n">prob_convert_given_treatment</span><span class="o">-</span> <span class="n">prob_convert_given_control</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
 <span class="c1"># p value calculation</span>
 </pre></div>
 
@@ -13269,12 +13323,12 @@ ZghIUscMAUnqmCEgSR0zBCSpY4aAJHXsfwEoHL/tufPAhwAAAABJRU5ErkJggg==
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[89]:</div>
+<div class="prompt output_prompt">Out[82]:</div>
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.098100000000000007</pre>
+<pre>0.54290000000000005</pre>
 </div>
 
 </div>
@@ -13298,7 +13352,7 @@ ZghIUscMAUnqmCEgSR0zBCSpY4aAJHXsfwEoHL/tufPAhwAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>What I computed in part j is the probability of finding the observed results, given that the null hypothesis is true. This is called the p value. Since we want to have a type one error rate of less than 0.05, if our p-value is less than this, we can say we have sufficient statistical evidence to reject the null hypothesis. Because our p-value is 0.0951, and this is greater than the type 1 error rate we would like to stay under, we are unable to reject the null hypothesis. We stick with the hypothesis that there is no difference between the new and old pages in effectiveness.</p>
+<p>What I computed in part j is the probability of finding the observed results, given that the null hypothesis is true. This is called the p value. Since we want to have a type one error rate of less than 0.05, if our p-value is less than this, we can say we have sufficient statistical evidence to reject the null hypothesis. Because my p-value is 0.542, and this is greater than the type 1 error rate we would like to stay under, we are unable to reject the null hypothesis. We stick with the hypothesis that there is no difference between the new and old pages in effectiveness.</p>
 
 </div>
 </div>
@@ -13387,7 +13441,7 @@ ZghIUscMAUnqmCEgSR0zBCSpY4aAJHXsfwEoHL/tufPAhwAAAABJRU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The z-score of -1.31 and the p-value of 0.905 mean that there was not enough statistical evidence to reject the null hypothesis. This is because the absolute value of the z-score is less than 1.96, and the p-value is greater than my type 1 error rate of 0.05. They agree with my findings in parts j and k.</p>
-<h1 id="The-p-value-is-different-though-compared-to-part-j,-and-I-don't-quite-understand-why.-I-think-there-must-be-a-mistake-here-I'm-not-catching?-I-did-a-one-sided-test-this-time,-with-the-alternative-being-that-the-the-old-page-is-not-as-good-as-the-new-page.">The p-value is different though compared to part j, and I don't quite understand why. I think there must be a mistake here I'm not catching? I did a one sided test this time, with the alternative being that the the old page is not as good as the new page.<a class="anchor-link" href="#The-p-value-is-different-though-compared-to-part-j,-and-I-don't-quite-understand-why.-I-think-there-must-be-a-mistake-here-I'm-not-catching?-I-did-a-one-sided-test-this-time,-with-the-alternative-being-that-the-the-old-page-is-not-as-good-as-the-new-page.">&#182;</a></h1>
+
 </div>
 </div>
 </div>
